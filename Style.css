@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ol,ul,li{
+    list-style: none;
+}
+@font-face {
+    font-family: 'SeoulHangang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body{
+    background-image: url(./img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    font-family: "SeoulHangang";
+   
+}
+
+
+main{
+    background-color: rgba(255, 255, 255, 0.225);
+    border: 7px solid rgba(255, 255, 255, 0.141);
+    border-radius: 40px;
+
+    backdrop-filter: blur(15px);
+    height: 978px;
+    width: 1804px;
+    
+}
+
+
+header{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.frase{
+    padding: 10px;
+   font-size: 36px;
+   margin: 10px;
+
+   color: white;
+}
+.botoes{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+    font-size: 28px;
+    margin: 20px;
+    
+}
+.sing{
+    width: 234px;
+    height: 66px;
+    background-color: rgba(255, 255, 255, 0.144);
+
+    border: 4px solid rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+
+.placa{
+    display: flex;
+   flex-direction: column;
+
+   padding-top: 90px;
+   padding-left: 88px;
+   gap: 100px;
+
+   color: white;
+}
+h1{
+    font-size: 96px;
+    width: 670px;
+    height: 185px;
+}
+.descricao{
+    font-size: 26px;
+    width: 864px;
+    height: 66px;
+}
+.book{
+    font-size: 30px;
+    width: 258px;
+    height: 78px;
+
+    background-color: rgba(255, 255, 255, 0.144);
+    border: 4px solid rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(5px);
+
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    margin: 10px;
+}
